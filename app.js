@@ -20,7 +20,11 @@ var hbs = exphbs.create({
     defaultLayout: 'layout.hbs',
     partialsDir: path.join(__dirname, '/views/partials'),
     layoutsDir: path.join(__dirname, '/views/layouts'),
-    helpers: {}
+    helpers: {
+        toJSON : function(object) {
+            return JSON.stringify(object);
+        }
+    }
     });
 
 // Register `hbs.engine` with the Express app.

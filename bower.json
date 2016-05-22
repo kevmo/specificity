@@ -1,0 +1,20 @@
+{
+  "name": "specificity",
+  "description": "",
+  "main": "",
+  "authors": [
+    "kevmo <k.james.moore@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kevmo/specificity",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^3.5.17"
+  }
+}
